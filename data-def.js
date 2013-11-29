@@ -38,10 +38,10 @@ var w = 800,
                     'x' : w - (w * .39), 'y' : (h / 2) + 20, 'id' : 'o_p', 'class' : 'venn_text_small'},
                     {'text' : 'Personal', 'transform' : 'rotate(30 '+ (w - (w * .41)) + ' ' + ((h / 2) + 40) + ')', 
                     'x' : w - (w * .40), 'y' : (h / 2) + 40, 'id' : 'o_p', 'class' : 'venn_text_small'}],
-                  [ {'text' : '?', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 40, 
-                    'id' : 'b_o_p', 'class' : 'venn_text_small'},
-                    {'text' : '(BOP)', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 20, 
-                    'id' : 'b_o_p', 'class' : 'venn_text_small'}]
+                  //[  {'text' : '(BOP)', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 20, 'id' : 'b_o_p', 'class' : 'venn_text_small'}
+                  //[ {'text' : '<img src="https://www.eff.org/files/NSA_eagle.jpg" />'
+                  [  {'text' : '#NSA', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 20, 'id' : 'b_o_p', 'class' : 'venn_text_small'}
+		    ]
                 ]
 
     context_data = {"bigdata" : "Big Data is (i) data that cannot be handled with conventional tools and/or (ii) the idea that large, granular amounts of data create value almost automatically. More formal: There is no formal definition of Big Data – though many have tried.",
